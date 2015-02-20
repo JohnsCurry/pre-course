@@ -1,0 +1,5 @@
+total_male_age = 0
+hash.each do |k,v|
+  male_family_member = value["gender"] == "male"
+  total_male_age += male_family_member ? value["age"] : 0
+end

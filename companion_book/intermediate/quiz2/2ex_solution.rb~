@@ -1,0 +1,4 @@
+
+index = 0
+hash = hash.each{ |k,v| v[:original_order] = index; index += 1 }
+hash = hash.each{ |k,v| v[:length_order] = k.length }
